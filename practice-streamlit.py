@@ -21,7 +21,7 @@ if name :
         
         # same as for slider button 
 eidi = st.slider("Select your Eidi:",1,100,4)
-st.write(f"here is your Eidi  {eidi}  ") 
+st.write(f"here is your Eidi  {eidi} rupess ") 
 # if i write the function of slider it will not work .why ?
 # because in slider function with st we the values in the form min-Value=1 , max-Value=100, Value=4(the you to start fron it can be any value and aslo back values)
        
