@@ -7,11 +7,12 @@ st.write("Get your wishes with your name")
 
 #  now for simple as use input  or(user input)  we create the a variable to store  ,eans 
 # if we the input of the name how it will be shown to you and when you enter the how result will be?
-name= st.text_input("Enter your name here:")
+name= st.text_input("Enter your name here: 'and press enter'")
 if name :
     # embaded string in python we write with "f" like we use backtick in ts or
     #  js to embaded two strings or string with the text.
     st.write(f"Hello! {name}, Eid Mubarak to you, and your family with a lot of blessings.")
+
 
     # and now the button 
     if st.button("click me, for wishes too"):
