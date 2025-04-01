@@ -15,7 +15,7 @@ if name :
 
     # and now the button 
     if st.button("click me, for wishes too"):
-        st.success("")
+        st.success("Thank you,Khair Mubarik")
         # success to show you a message in popup for that clicked on button  
         # as you are not setting and function in button 
         
